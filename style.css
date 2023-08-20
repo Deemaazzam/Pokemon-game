@@ -1,0 +1,36 @@
+#transitionDiv{
+    background-color: black;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0;
+    pointer-events: none;
+    z-index: 10;
+}
+#interface{
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left:0;
+    right: 0;
+    border-top:2px black solid;
+    height:140px;
+    display:flex;
+
+}
+h1{
+    margin: 0%;
+}
+button{
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+}
+button:hover{
+   background-color: #ccc;
+}
+*{
+    font-family: 'Press Start 2P', cursive;
+}
